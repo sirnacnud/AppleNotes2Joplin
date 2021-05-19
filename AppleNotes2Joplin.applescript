@@ -194,6 +194,8 @@ type_: 1"
 		set myText to deleteLinesFromText(myText, deleteHTMLline) of me as text
 		set deleteHTMLline to {"<meta name=\"Generator\" content=\"Cocoa HTML Writer\">"}
 		set myText to deleteLinesFromText(myText, deleteHTMLline) of me as text
+		set deleteHTMLline to {"<meta name=\"CocoaVersion\" content=\"1671.6\">"}
+		set myText to deleteLinesFromText(myText, deleteHTMLline) of me as text
 		set deleteHTMLline to {"<meta name=\"CocoaVersion\" content=\"1894.6\">"}
 		set myText to deleteLinesFromText(myText, deleteHTMLline) of me as text
 		set deleteHTMLline to {"p.p1 {"}

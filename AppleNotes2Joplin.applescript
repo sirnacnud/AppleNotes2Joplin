@@ -75,7 +75,7 @@ type_: 2"
 		tell application "System Events"
 			tell process "Notes"
 				try
-					set focused of text area 1 of scroll area 1 of group 1 of splitter group 1 of splitter group 1 of window "Notes" to true
+					set focused of text area 1 of scroll area 1 of group 2 of splitter group 1 of splitter group 1 of window "Notes" to true
 				end try
 			end tell
 		end tell
